@@ -7,6 +7,7 @@ def fib_item(n):
     return fib_item(n - 1) + fib_item(n - 2)
 
 def test_fib_item():
+    assert fib_item(0) == 1 # 0
     assert fib_item(1) == 1
     assert fib_item(2) == 1
     assert fib_item(3) == 2
